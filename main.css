@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.article {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.story-header {
+  font-family: Times New Roman, sans-serif;
+}
+
+.news-section {
+  font-family: Times New Roman, sans-serif;
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+.story-header h1 {
+  font-family: Times New Roman, sans-serif;
+  font-size: 46px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.byline {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.publish-date {
+  font-size: 14px;
+  margin-top: 0;
+  color: #000;
+}
+
+.story-body {
+  font-family: Times New Roman, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 700px;
+}
+
+.story-body img {
+  width: 100%;
+}
+
+.story-body .photo-caption {
+  color: #666;
+  font-size: 14px;
+  margin-top: 0;
+  line-height: 18px;
+  font-family: Times New Roman, sans-serif;
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 600px) {
+  .story-header h1 {
+    font-size: 32px;
+  }
+
+  .story-body {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+  }
+
+  .photo-caption {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
